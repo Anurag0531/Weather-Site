@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    min-height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background: url(./photos/pic2.jpg);
+    background-size: cover;
+}
+.container{
+    width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: url(./photos/pexels-stacey-koenitz-r-2559484.jpg);
+    background-size: cover;
+}
+.bx-sun{
+    position: fixed;    
+    font-size: 50px;
+    color: rgb(255, 255, 0);
+}
+.bx-sun:hover{
+    cursor: pointer;
+    /* color: rgba(255, 200, 0, 0.993); */
+}
+h1{
+    /* font-size: 50px; */
+    /* color: red; */
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.search-container{
+    margin-bottom: 20px;
+    text-align: center;
+}
+#search-input{
+    padding: 8px;
+    width: 200px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+#search-btn{
+    padding: 8px 16px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50px;
+}
+#search-btn:hover{
+    background-color: #0056b3;
+}
+#weather-info{
+    text-align: center;
+}
